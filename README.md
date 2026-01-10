@@ -298,35 +298,17 @@ Visit **[camilo-cf.github.io](https://camilo-cf.github.io)** for:
 
 <div align="center">
 
-### 📈 GitHub Profile Summary
+### 📈 Comprehensive GitHub Metrics
 
-<a href="https://github.com/camilo-cf">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=camilo-cf&theme=tokyonight" alt="Profile Details" />
-</a>
+![GitHub Metrics](https://raw.githubusercontent.com/camilo-cf/camilo-cf/main/metrics.svg)
 
-### 📊 Contribution Stats
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=camilo-cf&theme=tokyonight" alt="Stats" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=camilo-cf&theme=tokyonight&utcOffset=8" alt="Productive Time" />
-</p>
-
-### 💻 Top Languages & Repositories
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=camilo-cf&theme=tokyonight" alt="Repos Per Language" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=camilo-cf&theme=tokyonight" alt="Most Commit Language" />
-</p>
-
-### 🔥 Contribution Streak
-
-<p align="center">
-  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=camilo-cf&theme=tokyonight&hide_border=true&background=0d1117&ring=00C7B7&fire=00C7B7&currStreakLabel=00C7B7" alt="GitHub Streak" />
-</p>
-
-### 📊 Activity Graph
+<!-- Fallback: Activity Graph if metrics haven't generated yet -->
+<details>
+<summary>📊 Activity Graph</summary>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=camilo-cf&theme=tokyo-night&hide_border=true&bg_color=0d1117" alt="Activity Graph" />
+
+</details>
 
 ### 🐍 Contribution Snake
 
