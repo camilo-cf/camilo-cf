@@ -294,17 +294,31 @@ Visit **[camilo-cf.github.io](https://camilo-cf.github.io)** for:
 
 <div align="center">
 
-### 🏆 GitHub Trophies
-![trophy](https://github-profile-trophy.vercel.app/?username=camilo-cf&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1&column=7)
+### 📈 GitHub Profile Summary
 
-### 📈 Contribution Stats
+<a href="https://github.com/camilo-cf">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=camilo-cf&theme=tokyonight" alt="Profile Details" />
+</a>
 
-![Camilo's GitHub stats](https://github-readme-stats.vercel.app/api?username=camilo-cf&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=camilo-cf&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117&exclude_repo=camilo-cf)
+### 📊 Contribution Stats
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=camilo-cf&theme=tokyonight" alt="Stats" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=camilo-cf&theme=tokyonight&utcOffset=8" alt="Productive Time" />
+</p>
+
+### 💻 Top Languages & Repositories
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=camilo-cf&theme=tokyonight" alt="Repos Per Language" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=camilo-cf&theme=tokyonight" alt="Most Commit Language" />
+</p>
 
 ### 🔥 Contribution Streak
 
-![GitHub Streak](https://streak-stats.demolab.com/?user=camilo-cf&theme=tokyonight&hide_border=true&background=0d1117)
+<p align="center">
+  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=camilo-cf&theme=tokyonight&hide_border=true&background=0d1117&ring=00C7B7&fire=00C7B7&currStreakLabel=00C7B7" alt="GitHub Streak" />
+</p>
 
 ### 📊 Activity Graph
 
