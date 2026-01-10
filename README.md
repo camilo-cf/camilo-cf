@@ -300,15 +300,17 @@ Visit **[camilo-cf.github.io](https://camilo-cf.github.io)** for:
 
 ### 🔥 Contribution Streak
 
-![GitHub Streak](https://streak-stats.demolab.com/?user=camilo-cf&theme=tokyonight&hide_border=true&background=0d1117)
+[![GitHub Streak](https://github-readme-streak-stats-eight.vercel.app/?user=camilo-cf&theme=tokyonight&hide_border=true&background=0d1117&ring=00C7B7&fire=00C7B7&currStreakLabel=00C7B7)](https://github.com/camilo-cf)
 
 ### 📈 Comprehensive GitHub Metrics
+<sub>*Updated automatically every 6 hours*</sub>
 
 ![GitHub Metrics](https://raw.githubusercontent.com/camilo-cf/camilo-cf/main/metrics.svg)
 
 <!-- Fallback: Activity Graph if metrics haven't generated yet -->
 <details>
-<summary>📊 Activity Graph</summary>
+<summary>📊 Activity Graph (Alternative View)</summary>
+<br/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=camilo-cf&theme=tokyo-night&hide_border=true&bg_color=0d1117" alt="Activity Graph" />
 
