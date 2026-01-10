@@ -267,7 +267,11 @@ Visit **[camilo-cf.github.io](https://camilo-cf.github.io)** for:
 ### 📝 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-<!-- This section is automatically updated by GitHub Actions -->
+- [Operating GenAI safety and policy reviews](https://camilo-cf.github.io/en/blog/genai-safety-ops/)
+- [Evaluation blueprints for GenAI systems](https://camilo-cf.github.io/en/blog/genai-evaluation-blueprint/)
+- [Blueprint de evaluación para sistemas de GenAI](https://camilo-cf.github.io/es-419/blog/genai-evaluation-blueprint/)
+- [Blueprint de avaliação para sistemas de GenAI](https://camilo-cf.github.io/pt-br/blog/genai-evaluation-blueprint/)
+- [Backtesting ML pipelines before rollout](https://camilo-cf.github.io/en/blog/mlops-backtesting/)
 <!-- BLOG-POST-LIST:END -->
 
 ### 🎤 Speaking & Community
