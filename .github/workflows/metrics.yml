@@ -22,34 +22,14 @@ jobs:
           config_theme: dark
           config_output: svg
 
-          # Language activity (primary stats)
+          # Language activity (most reliable plugin)
           plugin_languages: yes
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 8
           plugin_languages_sections: most-used
           plugin_languages_colors: github
           plugin_languages_threshold: 0%
-
-          # Follow-up of issues and pull requests
-          plugin_followup: yes
-          plugin_followup_sections: repositories
-
-          # Lines of code changed
-          plugin_lines: yes
-          plugin_lines_history_limit: 1
-          plugin_lines_repositories_limit: 4
-          plugin_lines_sections: base
-
-          # Isocalendar (commit calendar)
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
-
-          # Traffic
-          plugin_traffic: yes
-
-          # Stars plugin for repositories
-          plugin_stars: yes
-          plugin_stars_limit: 3
+          plugin_languages_indepth: yes
 
           filename: metrics.svg
 
@@ -70,9 +50,5 @@ jobs:
           plugin_languages_limit: 6
           plugin_languages_sections: most-used
           plugin_languages_colors: github
-
-          # Isocalendar for compact view
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
 
           filename: metrics-compact.svg
