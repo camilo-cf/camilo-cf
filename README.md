@@ -2,15 +2,15 @@
 
 # 👋 Hello, I'm Camilo Andrés Cáceres Flórez
 
-### 🎯 Staff ML Engineer & AI Architect @ Mercado Libre
-### GenAI Expert | Ph.D. + EMBA | Technical Leader
+### 🎯 Data Science Expert / Staff Engineer @ Mercado Libre
+### Ph.D. + EMBA | ML Researcher | Knowledge Sharer
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00C7B7&center=true&vCenter=true&width=600&lines=Building+Production+ML+Systems+at+Scale;MLOps+%7C+GenAI+%7C+Causal+Inference;Staff+Engineer+%7C+Tech+Leader+%7C+Consultant;Ph.D.+in+Mechatronics+%7C+EMBA" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00C7B7&center=true&vCenter=true&width=600&lines=Data+Science+%7C+Machine+Learning+%7C+Deep+Learning;Ads+Systems+%7C+ML+Research+%7C+Analytics;Ph.D.+in+Mechatronics+%7C+EMBA;Sharing+Knowledge+%7C+Building+Community" alt="Typing SVG" />
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/camilocaceresf)
 [![Google Scholar](https://img.shields.io/badge/-Google%20Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white)](https://scholar.google.com/citations?user=325XocAAAAAJ&hl=en)
 [![Website](https://img.shields.io/badge/-Website-00C7B7?style=for-the-badge&logo=google-chrome&logoColor=white)](https://camilo-cf.github.io)
-[![YouTube](https://img.shields.io/badge/-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@kmicf)
+[![YouTube](https://img.shields.io/badge/-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@camilo.caceresf)
 
 <img src="https://komarev.com/ghpvc/?username=camilo-cf&color=00C7B7&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views" />
 
@@ -20,9 +20,11 @@
 
 ## 💼 About Me
 
-> *Building production ML systems for ads, marketplaces, and personalization at scale*
+> *Building data science solutions and ML systems for ads at scale*
 
-I'm a senior technical leader specializing in **MLOps platforms**, **generative AI**, and **causal measurement** at **Mercado Libre** (NASDAQ: MELI), one of Latin America's largest tech companies. With a Ph.D. in Mechatronics and an EMBA in Strategic Leadership, I bridge cutting-edge ML research with business strategy, delivering production systems that create measurable impact.
+I'm a **Data Science Expert / Staff Engineer** at **Mercado Libre** (NASDAQ: MELI), one of Latin America's largest tech companies, focused on ads systems. With a Ph.D. in Mechatronics and an EMBA in Strategic Leadership, I bridge ML research with business strategy, working with data science, machine learning, and data engineering teams to deliver impactful solutions.
+
+I'm passionate about **sharing knowledge** with the ML community through blogging, speaking, and mentorship.
 
 <table align="center">
 <tr>
@@ -52,9 +54,10 @@ Staff ML Engineer @ MELI
 ```python
 class CamiloCaceres:
     def __init__(self):
-        self.role = "Staff ML Engineer & AI Architect"
+        self.role = "Data Science Expert / Staff Engineer"
         self.company = "Mercado Libre (NASDAQ: MELI)"
         self.location = "Bogotá, Colombia"
+        self.focus = "Ads Systems"
 
         self.education = {
             "phd": "Mechanical Engineering (Mechatronics) @ UNICAMP",
@@ -64,24 +67,29 @@ class CamiloCaceres:
         }
 
         self.expertise = [
-            "MLOps & Platform Engineering",
-            "Generative AI (LLMs, RAG, Agents)",
-            "Causal Inference & Experimentation",
-            "Recommender Systems at Scale",
-            "Ads Measurement & Incrementality"
+            "Data Science & Analytics",
+            "Machine Learning & Deep Learning",
+            "Ads Measurement & Attribution",
+            "Statistical Modeling",
+            "Research & Experimentation"
         ]
 
         self.currently_working_on = [
-            "DSP ML Platform & Control Planes",
-            "Production GenAI Systems with Governance",
-            "Causal Ads Measurement & Geo-Experiments",
-            "Platform Guardrails & Observability"
+            "Ads ML Systems @ Mercado Libre",
+            "Collaborating with DS/MLE/DE teams",
+            "Learning Causal Inference techniques",
+            "Data-driven decision making for ads"
         ]
 
-        self.open_to = ["Staff/Principal Roles", "ML Leadership", "Consulting", "Speaking"]
+        self.passionate_about = [
+            "Sharing knowledge through blogging and talks",
+            "Contributing to the ML community",
+            "Mentoring the next generation of data scientists",
+            "Bridging research and industry"
+        ]
 
     def say_hi(self):
-        print("Thanks for visiting! Let's build impactful ML systems together.")
+        print("Thanks for visiting! Let's learn and build together.")
 
 me = CamiloCaceres()
 me.say_hi()
@@ -91,11 +99,11 @@ me.say_hi()
 
 ## 🚀 Current Focus @ Mercado Libre
 
-- 🎯 **ML Platform Engineering**: Leading ML components for DSP (Demand Side Platform) and designing control planes for model deployment
-- 🧠 **Generative AI**: Building production GenAI systems with robust evaluators and governance frameworks
-- 📊 **Ads Measurement**: Developing causal inference models, uplift experimentation, and incrementality measurement (geo-experiments, creative testing)
-- 🏗️ **Platform Guardrails**: Architecting delivery contracts, observability systems, rollback playbooks, and shadow deployment strategies
-- 🎓 **Technical Leadership**: Coaching teams on data-model-service contracts while managing latency, cost, and compliance constraints
+- 📊 **Ads Data Science**: Building ML systems and analytics solutions for ads optimization
+- 🤝 **Cross-functional Collaboration**: Working with data science, ML engineering, and data engineering teams
+- 📈 **Ads Measurement**: Developing attribution models and measurement frameworks for ads effectiveness
+- 🔬 **Research & Learning**: Exploring causal inference techniques and advanced statistical methods
+- 🎓 **Knowledge Sharing**: Mentoring team members and contributing to technical discussions
 
 ---
 
@@ -108,62 +116,45 @@ me.say_hi()
 #### **Languages**
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/-SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Scala](https://img.shields.io/badge/-Scala-DC322F?style=for-the-badge&logo=scala&logoColor=white)
-![R](https://img.shields.io/badge/-R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+![MATLAB](https://img.shields.io/badge/-MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
 ![Bash](https://img.shields.io/badge/-Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
 #### **ML/AI Frameworks & Libraries**
 ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Scikit Learn](https://img.shields.io/badge/-Scikit%20Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/-Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 ![Keras](https://img.shields.io/badge/-Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/-XGBoost-337AB7?style=for-the-badge&logo=xgboost&logoColor=white)
 ![LightGBM](https://img.shields.io/badge/-LightGBM-02569B?style=for-the-badge&logo=lightgbm&logoColor=white)
-![LangChain](https://img.shields.io/badge/-LangChain-121212?style=for-the-badge&logo=chainlink&logoColor=white)
+![Pandas](https://img.shields.io/badge/-Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/-NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 
-#### **MLOps & Platform**
+#### **MLOps & Deployment**
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![MLflow](https://img.shields.io/badge/-MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
 ![Airflow](https://img.shields.io/badge/-Airflow-017CEE?style=for-the-badge&logo=apache-airflow&logoColor=white)
-![Kubeflow](https://img.shields.io/badge/-Kubeflow-326CE5?style=for-the-badge&logo=kubeflow&logoColor=white)
-![DVC](https://img.shields.io/badge/-DVC-13ADC7?style=for-the-badge&logo=dvc&logoColor=white)
-![Weights & Biases](https://img.shields.io/badge/-W%26B-FFBE00?style=for-the-badge&logo=weightsandbiases&logoColor=black)
+![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
-#### **Cloud & Infrastructure**
+#### **Cloud Platforms**
 ![AWS](https://img.shields.io/badge/-AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![GCP](https://img.shields.io/badge/-GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-![Azure](https://img.shields.io/badge/-Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-![Terraform](https://img.shields.io/badge/-Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
 
-#### **Data Engineering**
+#### **Data Engineering & Analytics**
 ![Apache Spark](https://img.shields.io/badge/-Apache%20Spark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white)
-![Kafka](https://img.shields.io/badge/-Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
 ![Databricks](https://img.shields.io/badge/-Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
-![Snowflake](https://img.shields.io/badge/-Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
-![dbt](https://img.shields.io/badge/-dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
+![BigQuery](https://img.shields.io/badge/-BigQuery-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
 
-#### **Databases & Vector Stores**
+#### **Databases**
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/-Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Elasticsearch](https://img.shields.io/badge/-Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
-![Pinecone](https://img.shields.io/badge/-Pinecone-000000?style=for-the-badge&logo=pinecone&logoColor=white)
-![Weaviate](https://img.shields.io/badge/-Weaviate-3EB049?style=for-the-badge&logo=weaviate&logoColor=white)
 
-#### **Monitoring & Observability**
-![Prometheus](https://img.shields.io/badge/-Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/-Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-![Datadog](https://img.shields.io/badge/-Datadog-632CA6?style=for-the-badge&logo=datadog&logoColor=white)
-![New Relic](https://img.shields.io/badge/-New%20Relic-008C99?style=for-the-badge&logo=new-relic&logoColor=white)
-
-#### **Development & Collaboration**
-![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![GitLab](https://img.shields.io/badge/-GitLab-FCA121?style=for-the-badge&logo=gitlab&logoColor=white)
-![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+#### **Visualization & BI**
+![Tableau](https://img.shields.io/badge/-Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/-Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)
+![Plotly](https://img.shields.io/badge/-Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
 
 </div>
 
@@ -173,52 +164,49 @@ me.say_hi()
 <tr>
 <td width="50%" valign="top">
 
-#### **Machine Learning & AI**
-- ✅ **Deep Learning**: Transformers, Neural Networks, GNNs
-- ✅ **Generative AI**: LLMs (GPT, Claude, Llama), RAG, Agents
-- ✅ **GenAI Production**: Evaluators, Governance, Fine-tuning
-- ✅ **Causal Inference**: Uplift modeling, Incrementality, Geo-experiments
-- ✅ **Recommender Systems**: Personalization, Collaborative filtering
-- ✅ **Computer Vision**: CNNs, Object Detection, Image Processing
-- ✅ **NLP**: Text Classification, NER, Semantic Search
-- ✅ **Research**: Evolutionary Computing, Genetic Algorithms
+#### **Data Science & Machine Learning**
+- ✅ **Machine Learning**: Supervised/Unsupervised learning, Ensemble methods
+- ✅ **Deep Learning**: Neural networks, Model training and optimization
+- ✅ **Statistical Modeling**: Regression, Classification, Time series
+- ✅ **Feature Engineering**: Feature selection, Dimensionality reduction
+- ✅ **Model Evaluation**: Cross-validation, Performance metrics, Bias-variance
+- ✅ **Predictive Analytics**: Forecasting, Trend analysis
+- ✅ **Research**: Evolutionary computing, Genetic algorithms, Control systems
 
 </td>
 <td width="50%" valign="top">
 
-#### **MLOps & Platform Engineering**
-- ✅ **ML Platforms**: Control planes, Feature stores, Model registry
-- ✅ **CI/CD/CT**: Continuous training, Automated testing
-- ✅ **Observability**: Lineage tracking, Model monitoring, Alerts
-- ✅ **Deployment**: Shadow, Blue-green, Canary, A/B testing
-- ✅ **Infrastructure**: Distributed training, GPU optimization
-- ✅ **Data Engineering**: Spark, Streaming, ETL/ELT
-- ✅ **Experimentation**: A/B testing, Multi-armed bandits
-- ✅ **Governance**: Model validation, Compliance, Documentation
+#### **Ads & Measurement**
+- ✅ **Ads Systems**: ML for ads optimization and targeting
+- ✅ **Ads Measurement**: Attribution models, Performance tracking
+- ✅ **Analytics**: Data-driven insights, Reporting, Dashboards
+- ✅ **Learning**: Causal inference techniques (work in progress)
+- ✅ **Optimization**: Campaign optimization, Budget allocation
+- ✅ **Metrics**: KPI definition, Success metrics, ROI analysis
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-#### **Data Engineering & Analytics**
-- ✅ **Big Data**: Spark, Dask, Distributed computing
-- ✅ **Databases**: SQL, NoSQL, Vector DBs
-- ✅ **Streaming**: Kafka, Kinesis, Real-time processing
-- ✅ **Data Warehousing**: Snowflake, Redshift, BigQuery
-- ✅ **ETL/ELT**: Airflow, dbt, Data pipelines
-- ✅ **Analytics**: BI tools, Statistical analysis, Visualization
+#### **Data Engineering & Analysis**
+- ✅ **Big Data**: Spark, Distributed computing
+- ✅ **Databases**: SQL (PostgreSQL, BigQuery), NoSQL (MongoDB, Redis)
+- ✅ **Data Pipelines**: ETL/ELT, Data workflows, Airflow
+- ✅ **Data Warehousing**: BigQuery, Data modeling
+- ✅ **Data Visualization**: Tableau, Matplotlib, Plotly
+- ✅ **Statistical Analysis**: Hypothesis testing, Confidence intervals
 
 </td>
 <td width="50%" valign="top">
 
-#### **Leadership & Strategy** 🎓
-- ✅ **Technical Leadership**: Architecture, Roadmaps, Reviews
-- ✅ **Team Development**: Coaching, Mentorship, Hiring
-- ✅ **Business Strategy** (EMBA): ROI, Decision-making, Stakeholder mgmt
-- ✅ **Academic Excellence**: Ph.D. (UNICAMP), 194+ citations
-- ✅ **Communication**: Technical writing, Speaking, Presenting
-- ✅ **Consulting**: ML architecture, Experimentation, Measurement
+#### **Leadership & Research** 🎓
+- ✅ **Technical Collaboration**: Cross-functional teamwork (DS/MLE/DE)
+- ✅ **Mentorship**: Coaching junior data scientists, Knowledge transfer
+- ✅ **Business Strategy** (EMBA): Data-driven decision making, ROI analysis
+- ✅ **Academic Research**: Ph.D. (UNICAMP), 194+ citations, 8 publications
+- ✅ **Communication**: Technical writing, Presenting, Blogging
+- ✅ **Community**: Speaking at conferences, Knowledge sharing
 
 </td>
 </tr>
@@ -232,18 +220,18 @@ me.say_hi()
 ```python
 impact_metrics = {
     "company": "Mercado Libre (NASDAQ: MELI)",
-    "role": "Staff ML Engineer & AI Architect",
-    "focus_areas": ["DSP Platform", "Ads Measurement", "GenAI", "MLOps"],
+    "role": "Data Science Expert / Staff Engineer",
+    "focus": "Ads Systems",
     "scale": "Latin America's largest tech company",
-    "scope": "Ads, Marketplaces, Personalization"
+    "collaboration": "DS, MLE, and DE teams"
 }
 ```
 
-- 🎯 **Leading ML components for DSP** - Designing control planes for model deployment at scale
-- 📊 **Architecting ads measurement platform** - Causal inference, geo-experiments, and incrementality testing
-- 🤖 **Building production GenAI systems** - With robust evaluators and governance frameworks
-- 🏗️ **Establishing platform guardrails** - Delivery contracts, observability, and rollback procedures
-- 🎓 **Coaching engineering teams** - On data-model-service contracts, latency optimization, and compliance
+- 📊 **Ads ML Systems** - Building and optimizing ML solutions for ads at scale
+- 📈 **Data-Driven Solutions** - Delivering analytics and insights for ads optimization
+- 🤝 **Cross-Functional Collaboration** - Working with data science, ML engineering, and data engineering teams
+- 🎓 **Knowledge Sharing** - Mentoring team members and contributing to technical excellence
+- 🔬 **Continuous Learning** - Exploring advanced techniques in measurement and causal inference
 
 ### **Academic & Research** 📚
 - 🎓 **194 citations** on Google Scholar across ML, robotics, and control systems
@@ -254,61 +242,14 @@ impact_metrics = {
 
 ---
 
-## 🛠️ Featured Projects & Case Studies
-
-### 🔥 Production Systems at Scale
-
-#### 🎯 **Platform Guardrails for ML Services**
-Enterprise-grade ML platform with comprehensive delivery contracts, observability, and operational playbooks.
-
-**Key Components**:
-- Delivery contracts for data-model-service interactions
-- Real-time observability and lineage tracking
-- Automated rollback playbooks and shadow deployment strategies
-- Latency, cost, and compliance monitoring
-
-**Impact**: Enables safe, reliable ML deployments across multiple teams
-
----
-
-#### 📊 **Ads Incrementality Measurement**
-Sophisticated measurement framework for quantifying advertising impact using causal inference.
-
-**Techniques**:
-- Geo-experiments and market-level testing
-- Uplift modeling and treatment effect estimation
-- Creative testing and A/B experimentation
-- Simulation-based validation
-
-**Impact**: Data-driven optimization of multi-million dollar ad campaigns
-
----
-
-#### 🤖 **Production GenAI Systems**
-Enterprise-grade generative AI infrastructure with robust evaluation and governance.
-
-**Features**:
-- Custom GenAI evaluators for quality assurance
-- Governance frameworks for responsible AI
-- Production-ready LLM pipelines
-- Cost and latency optimization
-
-**Impact**: Scalable GenAI deployment across marketplace and personalization use cases
-
----
-
-*📌 Check my pinned repositories below for open-source contributions and personal projects*
-
----
-
-## 📚 Knowledge Sharing & Consulting
+## 📚 Knowledge Sharing & Community
 
 ### 🌐 Personal Website & Blog
 Visit **[camilo-cf.github.io](https://camilo-cf.github.io)** for:
-- 📝 **Technical blog** on production ML, causal measurement, MLOps, and GenAI
-- 📊 **Case studies** from real-world implementations at scale
-- 🎯 **Deep dives** into ML architecture and platform engineering
-- 📧 **Newsletter** with insights on ML systems and leadership
+- 📝 **Technical blog** on data science, ML, and ads systems
+- 📊 **Case studies** and insights from real-world implementations
+- 🎯 **Deep dives** into ML techniques and data analytics
+- 📧 **Newsletter** with data science insights and learnings
 
 ### 📝 Latest Blog Posts
 
@@ -318,9 +259,9 @@ Visit **[camilo-cf.github.io](https://camilo-cf.github.io)** for:
 
 ### 🎤 Speaking & Community
 - 🎙️ Speaker at AI/ML conferences and industry events
-- 👥 Technical content on [YouTube](https://youtube.com/@kmicf)
-- 🎓 Advisor and consultant for ML architecture and measurement strategy
-- 📖 Sharing lessons from leading ML teams at scale
+- 👥 Technical content on [YouTube](https://youtube.com/@camilo.caceresf)
+- 🎓 Mentor and advisor for ML engineers and teams
+- 📖 Sharing lessons from building ML systems at scale
 
 ### 📄 Academic Publications
 - 📚 **8 peer-reviewed publications** on control systems, robotics, and neural networks
@@ -392,107 +333,6 @@ Visit **[camilo-cf.github.io](https://camilo-cf.github.io)** for:
 
 ---
 
-## 💼 Professional Services & Opportunities
-
-<div align="center">
-
-### 🚀 Open to New Opportunities
-
-<table>
-<tr>
-<td align="center" width="25%">
-
-### 🎯
-**Staff/Principal<br/>Engineer Roles**
-
-Leading ML platforms,<br/>GenAI systems, and<br/>technical teams
-
-</td>
-<td align="center" width="25%">
-
-### 🏢
-**ML Leadership<br/>Positions**
-
-Director/VP roles in<br/>ML Engineering,<br/>MLOps, or AI
-
-</td>
-<td align="center" width="25%">
-
-### 💡
-**Technical<br/>Consulting**
-
-ML architecture,<br/>platform design,<br/>measurement strategy
-
-</td>
-<td align="center" width="25%">
-
-### 🎤
-**Speaking &<br/>Advisory**
-
-Conferences, workshops,<br/>technical advisory<br/>boards
-
-</td>
-</tr>
-</table>
-
-</div>
-
-### 🛠️ Consulting & Advisory Services
-
-I provide **strategic consulting and technical advisory** services in the following areas:
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-#### **ML Platform & MLOps**
-- 🏗️ ML platform architecture and design
-- 🔄 CI/CD/CT pipeline implementation
-- 📊 Feature store strategy and governance
-- 🎯 Model deployment and serving patterns
-- 👁️ Observability and monitoring systems
-- 📈 ML infrastructure scaling strategies
-
-</td>
-<td width="50%" valign="top">
-
-#### **GenAI & Production ML**
-- 🤖 GenAI system architecture (RAG, Agents, Fine-tuning)
-- ✅ GenAI evaluators and quality frameworks
-- 🛡️ AI governance and compliance
-- 💰 Cost optimization for LLM deployments
-- ⚡ Latency optimization and caching strategies
-- 🔒 Security and data privacy in AI systems
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### **Experimentation & Measurement**
-- 📊 A/B testing and experimentation frameworks
-- 🎯 Causal inference and uplift modeling
-- 📈 Ads incrementality measurement
-- 🌍 Geo-experiments and market-level testing
-- 🔬 Statistical methodologies and best practices
-- 📉 Attribution modeling and multi-touch attribution
-
-</td>
-<td width="50%" valign="top">
-
-#### **Leadership & Strategy**
-- 👥 ML team building and organization design
-- 🎓 Technical coaching and mentorship programs
-- 📋 ML roadmap and strategy development
-- 💼 Business case development for ML initiatives
-- 🤝 Stakeholder management and communication
-- 🎯 ROI analysis and impact measurement
-
-</td>
-</tr>
-</table>
-
----
 
 ## 🤝 Let's Connect
 
@@ -503,29 +343,28 @@ I provide **strategic consulting and technical advisory** services in the follow
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/camilocaceresf)
 [![Google Scholar](https://img.shields.io/badge/-Google%20Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white)](https://scholar.google.com/citations?user=325XocAAAAAJ&hl=en)
 [![Website](https://img.shields.io/badge/-Personal%20Website-00C7B7?style=for-the-badge&logo=google-chrome&logoColor=white)](https://camilo-cf.github.io)
-[![YouTube](https://img.shields.io/badge/-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@kmicf)
-[![Email](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:camilo.caceres@example.com)
+[![YouTube](https://img.shields.io/badge/-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@camilo.caceresf)
 
 </div>
 
-### 💬 I'm Always Interested in Discussing:
+### 💬 I Enjoy Discussing:
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-- 🚀 **ML Platform Engineering** - Architecture patterns, deployment strategies, observability
-- 🤖 **GenAI in Production** - Evaluators, governance, cost optimization, RAG systems
-- 📊 **Causal Inference & Experimentation** - Ads measurement, uplift modeling, geo-experiments
-- 🎯 **Recommender Systems** - Personalization at scale, ranking algorithms
+- 📊 **Data Science & ML** - Techniques, best practices, and learnings
+- 📈 **Ads Systems** - ML for advertising, measurement, and optimization
+- 🔬 **Research Topics** - ML applications, statistical methods, experimentation
+- 🎓 **Learning & Development** - New techniques, papers, and industry trends
 
 </td>
 <td width="50%" valign="top">
 
-- 🎓 **Technical Leadership** - Bridging ML research, engineering excellence, and business impact
-- 💼 **Consulting Opportunities** - ML architecture, feature stores, CI/CD/CT pipelines
-- 🎤 **Speaking Engagements** - Conferences, workshops, technical talks
-- 🤝 **Collaboration** - Open source, research partnerships, industry initiatives
+- 🤝 **Knowledge Sharing** - Teaching, mentoring, and community building
+- 🎤 **Speaking Opportunities** - Conferences, workshops, technical talks
+- 📝 **Technical Writing** - Blogging, case studies, documentation
+- 🌐 **Collaboration** - Research partnerships, open source, community projects
 
 </td>
 </tr>
@@ -535,9 +374,9 @@ I provide **strategic consulting and technical advisory** services in the follow
 
 ## 💡 Philosophy
 
-> *"The best ML systems balance technical sophistication with operational excellence. Success requires not just state-of-the-art models, but robust platforms with proper observability, governance, and deployment strategies. My role is to architect these systems while coaching teams to maintain high standards for latency, cost, and compliance."*
+> *"Great data science combines rigorous methodology with practical impact. Success comes from asking the right questions, applying appropriate techniques, and effectively communicating insights. I'm passionate about continuous learning and sharing knowledge with the community."*
 
-**From research to production**: Bridging the gap between cutting-edge ML research (Ph.D.) and business strategy (EMBA) to build systems that create measurable impact at scale.
+**From research to practice**: Bridging ML research (Ph.D.) and business strategy (EMBA) to deliver data-driven solutions that create measurable value. Always learning, always sharing.
 
 ---
 
