@@ -113,10 +113,14 @@ me.say_hi()
 
 ### 🛠️ Technologies & Tools
 
-#### **Languages**
+#### **Languages & Web Frameworks**
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/-SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Bash](https://img.shields.io/badge/-Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Django](https://img.shields.io/badge/-Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![Flask](https://img.shields.io/badge/-Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 
 #### **ML/AI Frameworks & Libraries**
 ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
@@ -127,6 +131,9 @@ me.say_hi()
 ![LightGBM](https://img.shields.io/badge/-LightGBM-02569B?style=for-the-badge&logo=lightgbm&logoColor=white)
 ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/-NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![YOLO](https://img.shields.io/badge/-YOLO-00FFFF?style=for-the-badge&logo=yolo&logoColor=black)
 
 #### **MLOps & Deployment**
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
@@ -134,6 +141,7 @@ me.say_hi()
 ![Airflow](https://img.shields.io/badge/-Airflow-017CEE?style=for-the-badge&logo=apache-airflow&logoColor=white)
 ![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![n8n](https://img.shields.io/badge/-n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
 
 #### **Cloud Platforms**
 ![AWS](https://img.shields.io/badge/-AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
@@ -158,6 +166,7 @@ me.say_hi()
 ![Looker](https://img.shields.io/badge/-Looker-4285F4?style=for-the-badge&logo=looker&logoColor=white)
 ![Dash](https://img.shields.io/badge/-Dash-00C7B7?style=for-the-badge&logo=plotly&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Metabase](https://img.shields.io/badge/-Metabase-509EE3?style=for-the-badge&logo=metabase&logoColor=white)
 
 </div>
 
@@ -197,7 +206,7 @@ me.say_hi()
 - ✅ **Databases**: SQL (PostgreSQL, MySQL, BigQuery), NoSQL (Redis)
 - ✅ **Data Pipelines**: ETL/ELT, Data workflows, Airflow
 - ✅ **Data Warehousing**: BigQuery, Data modeling
-- ✅ **Data Visualization**: Matplotlib, Plotly, Seaborn, Looker, Dash, Streamlit
+- ✅ **Data Visualization**: Matplotlib, Plotly, Seaborn, Looker, Dash, Streamlit, Metabase
 - ✅ **Statistical Analysis**: Hypothesis testing, Confidence intervals
 
 </td>
@@ -382,6 +391,16 @@ Visit **[camilo-cf.github.io](https://camilo-cf.github.io)** for:
 - The best technical solution is one that people actually use
 - Continuous learning is not optional—it's essential for staying relevant
 - Collaboration and diverse perspectives lead to better outcomes
+
+### 🤝 Team & Collaboration
+
+> *"Individual brilliance starts projects; collaborative excellence finishes them. The best data science happens when diverse perspectives challenge our assumptions."*
+
+**Building together**: Technical expertise is amplified through effective collaboration. I believe the strongest solutions emerge from:
+- 🎯 **Diverse teams** - Different backgrounds bring unique insights that lead to more robust solutions
+- 💬 **Open communication** - Transparent discussions about challenges, trade-offs, and constraints
+- 🔄 **Knowledge sharing** - What I learn becomes more valuable when I share it with others
+- 🌱 **Collective growth** - Teams that learn together build better products together
 
 ---
 
