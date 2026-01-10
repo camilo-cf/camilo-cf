@@ -30,10 +30,6 @@ jobs:
           plugin_languages_colors: github
           plugin_languages_threshold: 0%
 
-          # Follow-up of issues and pull requests
-          plugin_followup: yes
-          plugin_followup_sections: repositories
-
           # Lines of code changed
           plugin_lines: yes
           plugin_lines_history_limit: 1
@@ -44,12 +40,10 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
 
-          # Traffic
-          plugin_traffic: yes
-
-          # Stars plugin for repositories
-          plugin_stars: yes
-          plugin_stars_limit: 3
+          # Notable contributions
+          plugin_notable: yes
+          plugin_notable_limit: 4
+          plugin_notable_types: commit
 
           filename: metrics.svg
 
