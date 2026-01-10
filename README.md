@@ -5,7 +5,7 @@
 ### 🎯 Data Science Expert / Staff Engineer @ Mercado Libre
 ### Ph.D. + EMBA | ML Researcher | Knowledge Sharer
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00C7B7&center=true&vCenter=true&width=600&lines=Data+Science+%7C+Machine+Learning+%7C+Deep+Learning;ML+Research+%7C+Analytics+%7C+MLOps;Ph.D.+in+Mechatronics+%7C+EMBA;Sharing+Knowledge+%7C+Building+Community" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00C7B7&center=true&vCenter=true&width=700&lines=Data+Science+%7C+Machine+Learning+%7C+Deep+Learning;ML+Research+%7C+Analytics+%7C+MLOps;Ph.D.+in+Mechatronics+%7C+EMBA;Sharing+Knowledge+%7C+Building+Community" alt="Typing SVG" />
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/camilocaceresf)
 [![Google Scholar](https://img.shields.io/badge/-Google%20Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white)](https://scholar.google.com/citations?user=325XocAAAAAJ&hl=en)
@@ -37,7 +37,7 @@ Bogotá, Colombia
 <td align="center" width="33%">
 
 🎓 **Research Impact**
-200+ citations • 9+ publications
+200+ citations • 10+ publications
 
 </td>
 <td align="center" width="33%">
@@ -216,7 +216,7 @@ me.say_hi()
 - ✅ **Technical Collaboration**: Cross-functional teamwork (DS/MLE/DE)
 - ✅ **Mentorship**: Coaching junior data scientists, Knowledge transfer
 - ✅ **Business Strategy** (EMBA): Data-driven decision making, ROI analysis
-- ✅ **Academic Research**: Ph.D. (UNICAMP), 200+ citations, 9+ publications
+- ✅ **Academic Research**: Ph.D. (UNICAMP), 200+ citations, 10+ publications
 - ✅ **Communication**: Technical writing, Presenting, Blogging
 - ✅ **Community**: Speaking at conferences, Knowledge sharing
 
@@ -247,7 +247,8 @@ impact_metrics = {
 
 ### **Academic & Research** 📚
 - 🎓 **200+ citations** on Google Scholar across diverse research areas
-- 📝 **9+ peer-reviewed publications** spanning multiple domains
+- 📝 **10+ peer-reviewed publications** spanning multiple domains
+- 🎤 **Conference presentations** at international venues in ML, robotics, and control systems
 - 🏆 **Ph.D. in Mechanical Engineering** (Mechatronics) from UNICAMP, Brazil
 - 🎯 **EMBA in Strategic Leadership** from Valar Institute
 - 🤖 Research areas: Control systems, Robotics, Computer vision, AI-based control, Bio-inspired systems
@@ -275,8 +276,9 @@ Visit **[camilo-cf.github.io](https://camilo-cf.github.io)** for:
 - 🎓 Mentor and advisor for ML engineers and teams
 - 📖 Sharing lessons from building ML systems at scale
 
-### 📄 Academic Publications
-- 📚 **9+ peer-reviewed publications** spanning diverse research areas
+### 📄 Academic Publications & Conferences
+- 📚 **10+ peer-reviewed publications** spanning diverse research areas
+- 🎤 **Conference presentations** at international AI/ML, robotics, and mechatronics venues
 - 🔬 Research domains: Control systems, Robotics, Computer vision, AI-based control, Bio-inspired systems, Agricultural technology, Human-machine interfaces
 - 📊 View full publication list on [Google Scholar](https://scholar.google.com/citations?user=325XocAAAAAJ&hl=en)
 
@@ -293,16 +295,16 @@ Visit **[camilo-cf.github.io](https://camilo-cf.github.io)** for:
 <div align="center">
 
 ### 🏆 GitHub Trophies
-[![trophy](https://github-profile-trophy.vercel.app/?username=camilo-cf&theme=darkhub&no-frame=true&no-bg=true&margin-w=4&row=1&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+![trophy](https://github-profile-trophy.vercel.app/?username=camilo-cf&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1&column=7)
 
 ### 📈 Contribution Stats
 
-[![Camilo's GitHub stats](https://github-readme-stats.vercel.app/api?username=camilo-cf&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117)](https://github.com/anuraghazra/github-readme-stats)
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=camilo-cf&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117&exclude_repo=camilo-cf)](https://github.com/anuraghazra/github-readme-stats)
+![Camilo's GitHub stats](https://github-readme-stats.vercel.app/api?username=camilo-cf&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=camilo-cf&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117&exclude_repo=camilo-cf)
 
 ### 🔥 Contribution Streak
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=camilo-cf&theme=tokyonight&hide_border=true&background=0d1117)](https://git.io/streak-stats)
+![GitHub Streak](https://streak-stats.demolab.com/?user=camilo-cf&theme=tokyonight&hide_border=true&background=0d1117)
 
 ### 📊 Activity Graph
 
@@ -331,7 +333,7 @@ Visit **[camilo-cf.github.io](https://camilo-cf.github.io)** for:
 - 💼 **EMBA in Strategic Leadership** - Valar Institute
 
 ### **Research Impact**
-- 📚 **9+ peer-reviewed publications** spanning diverse research areas
+- 📚 **10+ peer-reviewed publications** spanning diverse research areas
 - 🎯 **200+ citations** across control systems, robotics, computer vision, and AI applications
 - 🔬 Research contributions in mechatronics, intelligent systems, and bio-inspired technologies
 
