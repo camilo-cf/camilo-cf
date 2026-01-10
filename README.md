@@ -1,19 +1,22 @@
-# 👋 Hello, I'm Camilo
+# 👋 Hello, I'm Camilo Andrés Cáceres Flórez
 
-## 🎯 Staff/Principal ML Engineer | GenAI Architect | Data Science Leader | EMBA
+## 🎯 Staff ML Engineer & AI Architect @ Mercado Libre | GenAI Expert | Ph.D. + EMBA
 
-> *Building scalable AI/ML systems that drive measurable business impact*
+> *Building production ML systems for ads, marketplaces, and personalization at scale*
 
-I'm a senior technical leader specializing in **machine learning systems**, **generative AI**, and **data-driven decision making** at scale. With an EMBA background, I bridge the gap between cutting-edge technology and business strategy, delivering solutions that create real value.
+I'm a senior technical leader specializing in **MLOps platforms**, **generative AI**, and **causal measurement** at one of Latin America's largest tech companies. With a Ph.D. in Mechatronics and an EMBA in Strategic Leadership, I bridge cutting-edge ML research with business strategy, delivering production systems that create measurable impact.
+
+📍 **Bogotá, Colombia** | 🎓 **194 citations** on [Google Scholar](https://scholar.google.com/citations?user=325XocAAAAAJ&hl=en) | 📝 **8 peer-reviewed publications**
 
 ---
 
-## 🚀 Current Focus
+## 🚀 Current Focus @ Mercado Libre
 
-- 🧠 **Generative AI**: Building production-ready LLM applications, RAG systems, and AI agents
-- 📊 **MLOps at Scale**: Designing robust ML infrastructure for enterprise deployments
-- 🎓 **Technical Leadership**: Mentoring teams, driving architectural decisions, and establishing ML best practices
-- 💡 **Innovation**: Exploring emerging AI capabilities and their strategic business applications
+- 🎯 **ML Platform Engineering**: Leading ML components for DSP (Demand Side Platform) and designing control planes for model deployment
+- 🧠 **Generative AI**: Building production GenAI systems with robust evaluators and governance frameworks
+- 📊 **Ads Measurement**: Developing causal inference models, uplift experimentation, and incrementality measurement (geo-experiments, creative testing)
+- 🏗️ **Platform Guardrails**: Architecting delivery contracts, observability systems, rollback playbooks, and shadow deployment strategies
+- 🎓 **Technical Leadership**: Coaching teams on data-model-service contracts while managing latency, cost, and compliance constraints
 
 ---
 
@@ -26,10 +29,11 @@ I'm a senior technical leader specializing in **machine learning systems**, **ge
 ![Scikit Learn](https://img.shields.io/badge/-Scikit%20Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/-Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 
-- **Deep Learning**: Transformers, CNNs, RNNs, GANs, Diffusion Models
-- **Generative AI**: LLMs (GPT, Claude, Llama), Fine-tuning, RLHF, Prompt Engineering
-- **Classical ML**: Ensemble methods, Time Series, Anomaly Detection, Recommendation Systems
-- **NLP**: Text Classification, Named Entity Recognition, Semantic Search, RAG
+- **Deep Learning**: Transformers, Neural Networks, Graph Neural Networks (GNNs)
+- **Generative AI**: LLMs (GPT, Claude, Llama), GenAI Evaluators, Production LLM Systems
+- **Causal Inference**: Uplift modeling, Incrementality measurement, Geo-experiments
+- **Recommender Systems**: Personalization at scale, Collaborative filtering, Marketplace optimization
+- **Research Background**: Evolutionary Computing, Genetic Algorithms, Control Systems, Bio-inspired Robotics
 
 ### **MLOps & Infrastructure**
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
@@ -38,10 +42,11 @@ I'm a senior technical leader specializing in **machine learning systems**, **ge
 ![Azure](https://img.shields.io/badge/-Azure-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white)
 ![MLflow](https://img.shields.io/badge/-MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
 
-- **Model Deployment**: REST APIs, gRPC, Model Serving (TorchServe, TensorFlow Serving)
-- **Orchestration**: Airflow, Kubeflow, Prefect, Dagster
-- **Monitoring**: Model drift detection, Performance tracking, A/B testing
-- **Infrastructure**: Distributed training, GPU optimization, Cloud architecture
+- **ML Platform Engineering**: Control planes for model deployment, Feature store governance, Platform APIs
+- **CI/CD/CT Pipelines**: Continuous training, Model versioning, Automated testing and validation
+- **Observability**: Lineage tracking, Model monitoring, Performance dashboards, Alerting systems
+- **Deployment Strategies**: Shadow deployments, Rollback playbooks, Blue-green deployments, Canary releases
+- **Infrastructure**: Distributed systems, GPU optimization, Cloud architecture (AWS, GCP, Azure)
 
 ### **Data Engineering & Analytics**
 ![Spark](https://img.shields.io/badge/-Apache%20Spark-E25A1C?style=flat-square&logo=apache-spark&logoColor=white)
@@ -55,88 +60,109 @@ I'm a senior technical leader specializing in **machine learning systems**, **ge
 - **Analytics**: Data warehousing, ETL/ELT pipelines, BI integration
 
 ### **Leadership & Strategy** 🎓
-- **Technical Leadership**: Architecture design, Code review, Technical roadmaps
-- **Team Management**: Mentorship, Hiring, Performance management
-- **Business Strategy**: ROI analysis, Stakeholder management, Product thinking
-- **Communication**: Technical writing, Presenting to executives, Cross-functional collaboration
+- **Technical Leadership**: ML architecture design, Data-model-service contracts, Technical roadmaps
+- **Team Development**: Coaching teams on best practices, Mentorship, Knowledge sharing
+- **Business Strategy** (EMBA): ROI analysis, Strategic decision-making, Stakeholder management
+- **Academic Excellence**: Ph.D. in Mechatronics (UNICAMP), Research in control systems and robotics
+- **Communication**: Technical writing, Conference speaking, Cross-functional collaboration
+- **Consulting**: Principal consultant for ML architecture, experimentation, and ads measurement
 
 ---
 
 ## 🏆 Impact & Achievements
 
+### **At Mercado Libre** 🚀
 ```python
 impact_metrics = {
-    "ml_models_deployed": "50+",
-    "data_processed": "Petabyte-scale",
-    "team_size_led": "15+ engineers",
-    "cost_savings": "$2M+ annually",
-    "inference_optimization": "10x faster",
-    "model_accuracy_improvement": "+25% average"
+    "company": "Mercado Libre (NASDAQ: MELI)",
+    "role": "Staff ML Engineer & AI Architect",
+    "focus_areas": ["DSP Platform", "Ads Measurement", "GenAI", "MLOps"],
+    "scale": "Latin America's largest tech company",
+    "scope": "Ads, Marketplaces, Personalization"
 }
 ```
 
-- 🎯 **Led ML platform migration** reducing model deployment time from weeks to hours
-- 📈 **Built recommendation system** serving 10M+ daily predictions with <50ms latency
-- 🤖 **Architected GenAI solution** achieving 40% productivity boost for customer support
-- 🔧 **Established MLOps practices** improving model reliability from 92% to 99.7% uptime
-- 📊 **Drove data-driven culture** resulting in $5M+ revenue increase through predictive analytics
+- 🎯 **Leading ML components for DSP** - Designing control planes for model deployment at scale
+- 📊 **Architecting ads measurement platform** - Causal inference, geo-experiments, and incrementality testing
+- 🤖 **Building production GenAI systems** - With robust evaluators and governance frameworks
+- 🏗️ **Establishing platform guardrails** - Delivery contracts, observability, and rollback procedures
+- 🎓 **Coaching engineering teams** - On data-model-service contracts, latency optimization, and compliance
+
+### **Academic & Research** 📚
+- 🎓 **194 citations** on Google Scholar across ML, robotics, and control systems
+- 📝 **8 peer-reviewed publications** in mechatronics, neural networks, and bio-inspired robotics
+- 🏆 **Ph.D. in Mechanical Engineering** (Mechatronics) from UNICAMP, Brazil
+- 🎯 **EMBA in Strategic Leadership** from Valar Institute
+- 🤖 Research in evolutionary computing, genetic algorithms, and assistive robotics
 
 ---
 
-## 🛠️ Featured Projects & Contributions
+## 🛠️ Featured Projects & Case Studies
 
-### 🔥 Recent Work
+### 🔥 Production Systems at Scale
 
-<!-- Uncomment and customize these sections as you add projects
+#### 🎯 **Platform Guardrails for ML Services**
+Enterprise-grade ML platform with comprehensive delivery contracts, observability, and operational playbooks.
 
-#### 🤖 [Enterprise RAG System](https://github.com/camilo-cf/enterprise-rag)
-Production-ready Retrieval Augmented Generation system with document chunking, semantic search, and LLM integration. Supports multiple vector stores and embedding models.
+**Key Components**:
+- Delivery contracts for data-model-service interactions
+- Real-time observability and lineage tracking
+- Automated rollback playbooks and shadow deployment strategies
+- Latency, cost, and compliance monitoring
 
-**Tech**: LangChain, OpenAI/Anthropic APIs, Pinecone, FastAPI, React
-**Impact**: 70% reduction in support ticket resolution time
-
----
-
-#### 📊 [ML Model Registry & Serving Platform](https://github.com/camilo-cf/ml-platform)
-End-to-end MLOps platform for model versioning, experiment tracking, deployment, and monitoring at scale.
-
-**Tech**: MLflow, Kubernetes, Prometheus, Grafana, Python
-**Impact**: Enabled 5 teams to deploy 100+ models independently
+**Impact**: Enables safe, reliable ML deployments across multiple teams
 
 ---
 
-#### 🧠 [LLM Fine-tuning Framework](https://github.com/camilo-cf/llm-finetune)
-Scalable framework for fine-tuning open-source LLMs with PEFT techniques (LoRA, QLoRA) on custom datasets.
+#### 📊 **Ads Incrementality Measurement**
+Sophisticated measurement framework for quantifying advertising impact using causal inference.
 
-**Tech**: PyTorch, Transformers, DeepSpeed, Weights & Biases
-**Impact**: 10x cost reduction vs. API-only approach
+**Techniques**:
+- Geo-experiments and market-level testing
+- Uplift modeling and treatment effect estimation
+- Creative testing and A/B experimentation
+- Simulation-based validation
 
----
-
-#### 🎯 [Real-time Anomaly Detection](https://github.com/camilo-cf/anomaly-detection)
-Production anomaly detection system processing 1M+ events/minute with sub-second detection latency.
-
-**Tech**: Apache Flink, Kafka, scikit-learn, Docker, Kubernetes
-**Impact**: Prevented $500K+ in potential fraud
-
--->
-
-*📌 Check my pinned repositories below for featured work*
+**Impact**: Data-driven optimization of multi-million dollar ad campaigns
 
 ---
 
-## 📚 Knowledge Sharing
+#### 🤖 **Production GenAI Systems**
+Enterprise-grade generative AI infrastructure with robust evaluation and governance.
 
-### ✍️ Technical Writing
-- 📝 [Building Production-Ready LLM Applications](#)
-- 📝 [MLOps Best Practices for Enterprise Scale](#)
-- 📝 [Cost Optimization Strategies for AI/ML Workloads](#)
-- 📝 [From EMBA to Tech Leadership: Bridging Business & Engineering](#)
+**Features**:
+- Custom GenAI evaluators for quality assurance
+- Governance frameworks for responsible AI
+- Production-ready LLM pipelines
+- Cost and latency optimization
 
-### 🎤 Speaking & Conferences
-- 🎙️ Speaker at AI/ML conferences and industry meetups
-- 👥 Workshop facilitator for ML engineering and GenAI topics
-- 🎓 Guest lecturer on ML systems and data science strategy
+**Impact**: Scalable GenAI deployment across marketplace and personalization use cases
+
+---
+
+*📌 Check my pinned repositories below for open-source contributions and personal projects*
+
+---
+
+## 📚 Knowledge Sharing & Consulting
+
+### 🌐 Personal Website & Blog
+Visit **[camilo-cf.github.io](https://camilo-cf.github.io)** for:
+- 📝 **Technical blog** on production ML, causal measurement, MLOps, and GenAI
+- 📊 **Case studies** from real-world implementations at scale
+- 🎯 **Deep dives** into ML architecture and platform engineering
+- 📧 **Newsletter** with insights on ML systems and leadership
+
+### 🎤 Speaking & Community
+- 🎙️ Speaker at AI/ML conferences and industry events
+- 👥 Technical content on [YouTube](https://youtube.com/@kmicf)
+- 🎓 Advisor and consultant for ML architecture and measurement strategy
+- 📖 Sharing lessons from leading ML teams at scale
+
+### 📄 Academic Publications
+- 📚 **8 peer-reviewed publications** on control systems, robotics, and neural networks
+- 🔬 Research areas: Mechatronics, evolutionary computing, bio-inspired robotics
+- 📊 View full publication list on [Google Scholar](https://scholar.google.com/citations?user=325XocAAAAAJ&hl=en)
 
 ---
 
@@ -153,27 +179,55 @@ Production anomaly detection system processing 1M+ events/minute with sub-second
 
 ---
 
+## 🎓 Education & Credentials
+
+### **Academic Background**
+- 🎓 **Ph.D. in Mechanical Engineering (Mechatronics)** - University of Campinas (UNICAMP), Brazil, 2020
+  - Dissertation focus: Control systems, neural networks, and evolutionary algorithms
+  - Research in bio-inspired robotics and assistive technologies
+
+- 📊 **M.Eng. in Mechanical Engineering** - University of Campinas (UNICAMP), Brazil, 2016
+  - Specialization in mechatronics and intelligent systems
+
+- ⚙️ **B.S. in Mechatronics Engineering** - Military University Nueva Granada (UMNG), Colombia, 2014
+  - Foundation in control systems, robotics, and embedded systems
+
+### **Executive Education**
+- 💼 **EMBA in Strategic Leadership** - Valar Institute
+  - Business strategy, organizational leadership, and strategic decision-making
+  - Bridging technical expertise with executive-level business acumen
+
+### **Research Impact**
+- 📚 **8 peer-reviewed publications** (2012-2018)
+- 🎯 **194 citations** across ML, robotics, and control systems research
+- 🔬 **h-index contributions** to mechatronics and evolutionary computing fields
+
+---
+
 ## 🤝 Let's Connect
 
 I'm always interested in discussing:
-- 🚀 Advanced ML/AI architecture patterns
-- 🤖 GenAI applications and LLM optimization
-- 📈 Data science strategy and team building
-- 💼 Bridging technical excellence with business outcomes
+- 🚀 **ML Platform Engineering** - Architecture patterns, deployment strategies, observability
+- 🤖 **GenAI in Production** - Evaluators, governance, cost optimization
+- 📊 **Causal Inference & Experimentation** - Ads measurement, uplift modeling, geo-experiments
+- 🎓 **Technical Leadership** - Bridging ML research, engineering excellence, and business impact
+- 💼 **Consulting** - ML architecture, feature stores, CI/CD/CT pipelines, measurement strategies
 
 ### 📫 Reach Out
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/camilo-cf)
-[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/camilo-cf)
-[![Email](https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:your.email@example.com)
-[![Medium](https://img.shields.io/badge/-Medium-12100E?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@camilo-cf)
-[![Personal Website](https://img.shields.io/badge/-Website-4285F4?style=flat-square&logo=google-chrome&logoColor=white)](https://your-website.com)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/camilocaceresf)
+[![Google Scholar](https://img.shields.io/badge/-Google%20Scholar-4285F4?style=flat-square&logo=google-scholar&logoColor=white)](https://scholar.google.com/citations?user=325XocAAAAAJ&hl=en)
+[![Website](https://img.shields.io/badge/-Personal%20Website-00C7B7?style=flat-square&logo=google-chrome&logoColor=white)](https://camilo-cf.github.io)
+[![YouTube](https://img.shields.io/badge/-YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtube.com/@kmicf)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/camilo-cf)
 
 ---
 
 ## 💡 Philosophy
 
-> *"The best ML systems are not just technically sophisticated—they solve real business problems, scale reliably, and empower teams to iterate quickly. As a senior engineer, my role is to architect those systems while cultivating the culture that sustains them."*
+> *"The best ML systems balance technical sophistication with operational excellence. Success requires not just state-of-the-art models, but robust platforms with proper observability, governance, and deployment strategies. My role is to architect these systems while coaching teams to maintain high standards for latency, cost, and compliance."*
+
+**From research to production**: Bridging the gap between cutting-edge ML research (Ph.D.) and business strategy (EMBA) to build systems that create measurable impact at scale.
 
 ---
 
