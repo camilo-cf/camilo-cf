@@ -5,7 +5,7 @@
 ### 🎯 Data Science Expert / Staff Engineer @ Mercado Libre
 ### Ph.D. + EMBA | ML Researcher | Knowledge Sharer
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00C7B7&center=true&vCenter=true&width=600&lines=Data+Science+%7C+Machine+Learning+%7C+Deep+Learning;Ads+Systems+%7C+ML+Research+%7C+Analytics;Ph.D.+in+Mechatronics+%7C+EMBA;Sharing+Knowledge+%7C+Building+Community" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00C7B7&center=true&vCenter=true&width=600&lines=Data+Science+%7C+Machine+Learning+%7C+Deep+Learning;ML+Research+%7C+Analytics+%7C+MLOps;Ph.D.+in+Mechatronics+%7C+EMBA;Sharing+Knowledge+%7C+Building+Community" alt="Typing SVG" />
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/camilocaceresf)
 [![Google Scholar](https://img.shields.io/badge/-Google%20Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white)](https://scholar.google.com/citations?user=325XocAAAAAJ&hl=en)
@@ -20,9 +20,9 @@
 
 ## 💼 About Me
 
-> *Building data science solutions and ML systems for ads at scale*
+> *Building data science solutions and ML systems at scale*
 
-I'm a **Data Science Expert / Staff Engineer** at **Mercado Libre** (NASDAQ: MELI), one of Latin America's largest tech companies, focused on ads systems. With a Ph.D. in Mechatronics and an EMBA in Strategic Leadership, I bridge ML research with business strategy, working with data science, machine learning, and data engineering teams to deliver impactful solutions.
+I'm a **Data Science Expert / Staff Engineer** at **Mercado Libre** (NASDAQ: MELI), one of Latin America's largest tech companies. With a Ph.D. in Mechatronics and an EMBA in Strategic Leadership, I bridge ML research with business strategy, working with data science, machine learning, and data engineering teams to deliver impactful solutions.
 
 I'm passionate about **sharing knowledge** with the ML community through blogging, speaking, and mentorship.
 
@@ -37,7 +37,7 @@ Bogotá, Colombia
 <td align="center" width="33%">
 
 🎓 **Research Impact**
-194 citations • 8 publications
+200+ citations • 9+ publications
 
 </td>
 <td align="center" width="33%">
@@ -57,7 +57,7 @@ class CamiloCaceres:
         self.role = "Data Science Expert / Staff Engineer"
         self.company = "Mercado Libre (NASDAQ: MELI)"
         self.location = "Bogotá, Colombia"
-        self.focus = "Ads Systems"
+        self.focus = "ML Systems & Data Science"
 
         self.education = {
             "phd": "Mechanical Engineering (Mechatronics) @ UNICAMP",
@@ -69,16 +69,16 @@ class CamiloCaceres:
         self.expertise = [
             "Data Science & Analytics",
             "Machine Learning & Deep Learning",
-            "Ads Measurement & Attribution",
+            "MLOps & ML Systems",
             "Statistical Modeling",
             "Research & Experimentation"
         ]
 
         self.currently_working_on = [
-            "Ads ML Systems @ Mercado Libre",
+            "ML Systems @ Mercado Libre",
             "Collaborating with DS/MLE/DE teams",
             "Learning Causal Inference techniques",
-            "Data-driven decision making for ads"
+            "Data-driven decision making"
         ]
 
         self.passionate_about = [
@@ -99,9 +99,9 @@ me.say_hi()
 
 ## 🚀 Current Focus @ Mercado Libre
 
-- 📊 **Ads Data Science**: Building ML systems and analytics solutions for ads optimization
+- 📊 **Data Science & ML**: Building ML systems and analytics solutions at scale
 - 🤝 **Cross-functional Collaboration**: Working with data science, ML engineering, and data engineering teams
-- 📈 **Ads Measurement**: Developing attribution models and measurement frameworks for ads effectiveness
+- 📈 **ML Systems**: Developing and optimizing machine learning solutions for business impact
 - 🔬 **Research & Learning**: Exploring causal inference techniques and advanced statistical methods
 - 🎓 **Knowledge Sharing**: Mentoring team members and contributing to technical discussions
 
@@ -116,7 +116,6 @@ me.say_hi()
 #### **Languages**
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/-SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MATLAB](https://img.shields.io/badge/-MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
 ![Bash](https://img.shields.io/badge/-Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
 #### **ML/AI Frameworks & Libraries**
@@ -139,6 +138,7 @@ me.say_hi()
 #### **Cloud Platforms**
 ![AWS](https://img.shields.io/badge/-AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![GCP](https://img.shields.io/badge/-GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Azure](https://img.shields.io/badge/-Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
 
 #### **Data Engineering & Analytics**
 ![Apache Spark](https://img.shields.io/badge/-Apache%20Spark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white)
@@ -147,14 +147,17 @@ me.say_hi()
 
 #### **Databases**
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Redis](https://img.shields.io/badge/-Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Elasticsearch](https://img.shields.io/badge/-Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
 
 #### **Visualization & BI**
-![Tableau](https://img.shields.io/badge/-Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/-Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)
 ![Plotly](https://img.shields.io/badge/-Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
+![Seaborn](https://img.shields.io/badge/-Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Looker](https://img.shields.io/badge/-Looker-4285F4?style=for-the-badge&logo=looker&logoColor=white)
+![Dash](https://img.shields.io/badge/-Dash-00C7B7?style=for-the-badge&logo=plotly&logoColor=white)
+![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 
 </div>
 
@@ -171,18 +174,18 @@ me.say_hi()
 - ✅ **Feature Engineering**: Feature selection, Dimensionality reduction
 - ✅ **Model Evaluation**: Cross-validation, Performance metrics, Bias-variance
 - ✅ **Predictive Analytics**: Forecasting, Trend analysis
-- ✅ **Research**: Evolutionary computing, Genetic algorithms, Control systems
+- ✅ **Research**: Control systems, AI-based optimization, Computer vision, Robotics
 
 </td>
 <td width="50%" valign="top">
 
-#### **Ads & Measurement**
-- ✅ **Ads Systems**: ML for ads optimization and targeting
-- ✅ **Ads Measurement**: Attribution models, Performance tracking
+#### **ML Systems & Analytics**
+- ✅ **ML Systems**: Building and optimizing production ML solutions
 - ✅ **Analytics**: Data-driven insights, Reporting, Dashboards
-- ✅ **Learning**: Causal inference techniques (work in progress)
-- ✅ **Optimization**: Campaign optimization, Budget allocation
-- ✅ **Metrics**: KPI definition, Success metrics, ROI analysis
+- ✅ **Causal Inference**: Learning advanced techniques for impact measurement
+- ✅ **Optimization**: Model optimization, Resource allocation
+- ✅ **Metrics**: KPI definition, Success metrics, Impact analysis
+- ✅ **Experimentation**: A/B testing, Statistical hypothesis testing
 
 </td>
 </tr>
@@ -191,10 +194,10 @@ me.say_hi()
 
 #### **Data Engineering & Analysis**
 - ✅ **Big Data**: Spark, Distributed computing
-- ✅ **Databases**: SQL (PostgreSQL, BigQuery), NoSQL (MongoDB, Redis)
+- ✅ **Databases**: SQL (PostgreSQL, MySQL, BigQuery), NoSQL (Redis)
 - ✅ **Data Pipelines**: ETL/ELT, Data workflows, Airflow
 - ✅ **Data Warehousing**: BigQuery, Data modeling
-- ✅ **Data Visualization**: Tableau, Matplotlib, Plotly
+- ✅ **Data Visualization**: Matplotlib, Plotly, Seaborn, Looker, Dash, Streamlit
 - ✅ **Statistical Analysis**: Hypothesis testing, Confidence intervals
 
 </td>
@@ -204,7 +207,7 @@ me.say_hi()
 - ✅ **Technical Collaboration**: Cross-functional teamwork (DS/MLE/DE)
 - ✅ **Mentorship**: Coaching junior data scientists, Knowledge transfer
 - ✅ **Business Strategy** (EMBA): Data-driven decision making, ROI analysis
-- ✅ **Academic Research**: Ph.D. (UNICAMP), 194+ citations, 8 publications
+- ✅ **Academic Research**: Ph.D. (UNICAMP), 200+ citations, 9+ publications
 - ✅ **Communication**: Technical writing, Presenting, Blogging
 - ✅ **Community**: Speaking at conferences, Knowledge sharing
 
@@ -221,24 +224,24 @@ me.say_hi()
 impact_metrics = {
     "company": "Mercado Libre (NASDAQ: MELI)",
     "role": "Data Science Expert / Staff Engineer",
-    "focus": "Ads Systems",
+    "focus": "ML Systems & Data Science",
     "scale": "Latin America's largest tech company",
     "collaboration": "DS, MLE, and DE teams"
 }
 ```
 
-- 📊 **Ads ML Systems** - Building and optimizing ML solutions for ads at scale
-- 📈 **Data-Driven Solutions** - Delivering analytics and insights for ads optimization
+- 📊 **ML Systems** - Building and optimizing machine learning solutions at scale
+- 📈 **Data-Driven Solutions** - Delivering analytics and insights for business impact
 - 🤝 **Cross-Functional Collaboration** - Working with data science, ML engineering, and data engineering teams
 - 🎓 **Knowledge Sharing** - Mentoring team members and contributing to technical excellence
-- 🔬 **Continuous Learning** - Exploring advanced techniques in measurement and causal inference
+- 🔬 **Continuous Learning** - Exploring advanced techniques in causal inference and statistical methods
 
 ### **Academic & Research** 📚
-- 🎓 **194 citations** on Google Scholar across ML, robotics, and control systems
-- 📝 **8 peer-reviewed publications** in mechatronics, neural networks, and bio-inspired robotics
+- 🎓 **200+ citations** on Google Scholar across diverse research areas
+- 📝 **9+ peer-reviewed publications** spanning multiple domains
 - 🏆 **Ph.D. in Mechanical Engineering** (Mechatronics) from UNICAMP, Brazil
 - 🎯 **EMBA in Strategic Leadership** from Valar Institute
-- 🤖 Research in evolutionary computing, genetic algorithms, and assistive robotics
+- 🤖 Research areas: Control systems, Robotics, Computer vision, AI-based control, Bio-inspired systems
 
 ---
 
@@ -264,8 +267,8 @@ Visit **[camilo-cf.github.io](https://camilo-cf.github.io)** for:
 - 📖 Sharing lessons from building ML systems at scale
 
 ### 📄 Academic Publications
-- 📚 **8 peer-reviewed publications** on control systems, robotics, and neural networks
-- 🔬 Research areas: Mechatronics, evolutionary computing, bio-inspired robotics
+- 📚 **9+ peer-reviewed publications** spanning diverse research areas
+- 🔬 Research domains: Control systems, Robotics, Computer vision, AI-based control, Bio-inspired systems, Agricultural technology, Human-machine interfaces
 - 📊 View full publication list on [Google Scholar](https://scholar.google.com/citations?user=325XocAAAAAJ&hl=en)
 
 ### ⚡ Recent GitHub Activity
@@ -281,16 +284,16 @@ Visit **[camilo-cf.github.io](https://camilo-cf.github.io)** for:
 <div align="center">
 
 ### 🏆 GitHub Trophies
-<img src="https://github-profile-trophy.vercel.app/?username=camilo-cf&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4&row=1" alt="GitHub Trophies" />
+[![trophy](https://github-profile-trophy.vercel.app/?username=camilo-cf&theme=darkhub&no-frame=true&no-bg=true&margin-w=4&row=1&column=7)](https://github.com/ryo-ma/github-profile-trophy)
 
 ### 📈 Contribution Stats
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=camilo-cf&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=camilo-cf&layout=compact&langs_count=10&theme=tokyonight&hide_border=true&bg_color=0d1117&exclude_repo=camilo-cf" />
+[![Camilo's GitHub stats](https://github-readme-stats.vercel.app/api?username=camilo-cf&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=camilo-cf&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117&exclude_repo=camilo-cf)](https://github.com/anuraghazra/github-readme-stats)
 
 ### 🔥 Contribution Streak
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=camilo-cf&theme=tokyonight&hide_border=true&background=0d1117" alt="GitHub Streak" />
+[![GitHub Streak](https://streak-stats.demolab.com/?user=camilo-cf&theme=tokyonight&hide_border=true&background=0d1117)](https://git.io/streak-stats)
 
 ### 📊 Activity Graph
 
@@ -312,24 +315,16 @@ Visit **[camilo-cf.github.io](https://camilo-cf.github.io)** for:
 
 ### **Academic Background**
 - 🎓 **Ph.D. in Mechanical Engineering (Mechatronics)** - University of Campinas (UNICAMP), Brazil, 2020
-  - Dissertation focus: Control systems, neural networks, and evolutionary algorithms
-  - Research in bio-inspired robotics and assistive technologies
-
 - 📊 **M.Eng. in Mechanical Engineering** - University of Campinas (UNICAMP), Brazil, 2016
-  - Specialization in mechatronics and intelligent systems
-
 - ⚙️ **B.S. in Mechatronics Engineering** - Military University Nueva Granada (UMNG), Colombia, 2014
-  - Foundation in control systems, robotics, and embedded systems
 
 ### **Executive Education**
 - 💼 **EMBA in Strategic Leadership** - Valar Institute
-  - Business strategy, organizational leadership, and strategic decision-making
-  - Bridging technical expertise with executive-level business acumen
 
 ### **Research Impact**
-- 📚 **8 peer-reviewed publications** (2012-2018)
-- 🎯 **194 citations** across ML, robotics, and control systems research
-- 🔬 **h-index contributions** to mechatronics and evolutionary computing fields
+- 📚 **9+ peer-reviewed publications** spanning diverse research areas
+- 🎯 **200+ citations** across control systems, robotics, computer vision, and AI applications
+- 🔬 Research contributions in mechatronics, intelligent systems, and bio-inspired technologies
 
 ---
 
@@ -354,9 +349,9 @@ Visit **[camilo-cf.github.io](https://camilo-cf.github.io)** for:
 <td width="50%" valign="top">
 
 - 📊 **Data Science & ML** - Techniques, best practices, and learnings
-- 📈 **Ads Systems** - ML for advertising, measurement, and optimization
 - 🔬 **Research Topics** - ML applications, statistical methods, experimentation
 - 🎓 **Learning & Development** - New techniques, papers, and industry trends
+- 💼 **EMBA Topics** - Business strategy, leadership, data-driven decision making
 
 </td>
 <td width="50%" valign="top">
@@ -374,9 +369,19 @@ Visit **[camilo-cf.github.io](https://camilo-cf.github.io)** for:
 
 ## 💡 Philosophy
 
-> *"Great data science combines rigorous methodology with practical impact. Success comes from asking the right questions, applying appropriate techniques, and effectively communicating insights. I'm passionate about continuous learning and sharing knowledge with the community."*
+> *"Great data science is at the intersection of rigorous methodology, practical impact, and clear communication. The best solutions emerge when we ask the right questions, choose appropriate techniques, and translate insights into action."*
 
-**From research to practice**: Bridging ML research (Ph.D.) and business strategy (EMBA) to deliver data-driven solutions that create measurable value. Always learning, always sharing.
+**Bridging worlds**: I combine academic research rigor (Ph.D.) with strategic business thinking (EMBA) to build data-driven solutions that create measurable value. My approach is grounded in three principles:
+
+- 🎯 **Impact over complexity** - Simple, well-executed solutions often outperform complex ones
+- 🔬 **Experimentation mindset** - Test assumptions, measure results, iterate continuously
+- 🤝 **Knowledge multiplier** - Sharing what I learn amplifies impact beyond individual contributions
+
+**Core beliefs**:
+- Data tells stories, but context gives them meaning
+- The best technical solution is one that people actually use
+- Continuous learning is not optional—it's essential for staying relevant
+- Collaboration and diverse perspectives lead to better outcomes
 
 ---
 
@@ -388,10 +393,16 @@ Visit **[camilo-cf.github.io](https://camilo-cf.github.io)** for:
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&text=Thanks%20for%20visiting!&fontSize=16&fontColor=fff&animation=twinkling" />
+### Thanks for visiting! 👋
 
-**Built with ❤️ by Camilo Cáceres** • **Last Updated: January 2026**
+**Let's connect and build something great together**
 
-<sub>💡 This profile is regularly updated with new projects, articles, and achievements</sub>
+💼 Open to discussing **data science**, **ML systems**, **research collaborations**, and **EMBA topics**
+
+📫 Reach out via [LinkedIn](https://linkedin.com/in/camilocaceresf) or check my [website](https://camilo-cf.github.io)
+
+---
+
+<sub>**Last Updated: January 2026** • This profile is regularly updated with new projects and insights</sub>
 
 </div>
