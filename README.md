@@ -298,6 +298,10 @@ Visit **[camilo-cf.github.io](https://camilo-cf.github.io)** for:
 
 <div align="center">
 
+### 🔥 Contribution Streak
+
+![GitHub Streak](https://streak-stats.demolab.com/?user=camilo-cf&theme=tokyonight&hide_border=true&background=0d1117)
+
 ### 📈 Comprehensive GitHub Metrics
 
 ![GitHub Metrics](https://raw.githubusercontent.com/camilo-cf/camilo-cf/main/metrics.svg)
