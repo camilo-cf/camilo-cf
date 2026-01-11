@@ -74,7 +74,7 @@ Shows: Current streak, longest streak, total contributions
 Your profile showcases **50+ technologies** organized by category:
 - **Languages**: Python, SQL, Scala, R, Bash
 - **ML/AI**: PyTorch, TensorFlow, Hugging Face, LangChain
-- **MLOps**: Docker, Kubernetes, MLflow, Airflow, DVC
+- **MLOps**: Docker, Kubernetes, MLflow, Airflow, Prefect, DVC
 - **Cloud**: AWS, GCP, Azure, Terraform
 - **Data Engineering**: Spark, Kafka, Databricks, Snowflake, dbt
 - **Databases**: PostgreSQL, MongoDB, Redis, Pinecone, Weaviate

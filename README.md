@@ -139,6 +139,7 @@ me.say_hi()
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![MLflow](https://img.shields.io/badge/-MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
 ![Airflow](https://img.shields.io/badge/-Airflow-017CEE?style=for-the-badge&logo=apache-airflow&logoColor=white)
+![Prefect](https://img.shields.io/badge/-Prefect-024DEA?style=for-the-badge&logo=prefect&logoColor=white)
 ![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 ![n8n](https://img.shields.io/badge/-n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
@@ -204,7 +205,7 @@ me.say_hi()
 #### **Data Engineering & Analysis**
 - ✅ **Big Data**: Spark, Distributed computing
 - ✅ **Databases**: SQL (PostgreSQL, MySQL, BigQuery), NoSQL (Redis)
-- ✅ **Data Pipelines**: ETL/ELT, Data workflows, Airflow
+- ✅ **Data Pipelines**: ETL/ELT, Data workflows, Airflow, Prefect
 - ✅ **Data Warehousing**: BigQuery, Data modeling
 - ✅ **Data Visualization**: Matplotlib, Plotly, Seaborn, Looker, Dash, Streamlit, Metabase
 - ✅ **Statistical Analysis**: Hypothesis testing, Confidence intervals
