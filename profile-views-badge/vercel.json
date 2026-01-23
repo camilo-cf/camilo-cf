@@ -1,0 +1,14 @@
+{
+  "functions": {
+    "api/badge.ts": {
+      "memory": 128,
+      "maxDuration": 10
+    },
+    "api/stats.ts": {
+      "memory": 128,
+      "maxDuration": 5
+    }
+  },
+  "regions": ["iad1"],
+  "framework": null
+}
