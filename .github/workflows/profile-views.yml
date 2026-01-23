@@ -1,4 +1,4 @@
-name: Update Profile Views
+name: Update Profile Views Badge
 
 on:
   schedule:
@@ -18,18 +18,17 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.PROFILE_TOKEN || github.token }}
 
       - name: Fetch traffic data
         id: traffic
         env:
-          GH_TOKEN: ${{ secrets.PROFILE_TOKEN || github.token }}
+          GH_TOKEN: ${{ github.token }}
         run: |
           # Get repository name
           REPO="${{ github.repository }}"
 
           # Fetch traffic data from GitHub API
+          # This gets unique visitors from the last 14 days
           RESPONSE=$(gh api repos/$REPO/traffic/views --jq '.uniques')
 
           echo "Current unique visitors (last 14 days): $RESPONSE"
@@ -42,31 +41,31 @@ jobs:
           # Create .github directory if it doesn't exist
           mkdir -p .github
 
-          # Generate SVG badge
+          # Generate SVG badge matching the style of komarev badge
           cat > .github/profile-views.svg << 'EOF'
-          <svg xmlns="http://www.w3.org/2000/svg" width="180" height="28" role="img" aria-label="PROFILE VIEWS: $COUNT">
-            <title>PROFILE VIEWS: $COUNT</title>
-            <linearGradient id="s" x2="0" y2="100%">
-              <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
-              <stop offset="1" stop-opacity=".1"/>
-            </linearGradient>
-            <clipPath id="r">
-              <rect width="180" height="28" rx="3" fill="#fff"/>
-            </clipPath>
-            <g clip-path="url(#r)">
-              <rect width="130" height="28" fill="#555"/>
-              <rect x="130" width="50" height="28" fill="#00C7B7"/>
-              <rect width="180" height="28" fill="url(#s)"/>
-            </g>
-            <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="100">
-              <text transform="scale(.1)" x="650" y="175" textLength="1100" lengthAdjust="spacing">PROFILE VIEWS</text>
-              <text transform="scale(.1)" x="1550" y="175" font-weight="bold" textLength="400" lengthAdjust="spacing">$COUNT</text>
-            </g>
-          </svg>
-          EOF
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="28" role="img" aria-label="PROFILE VIEWS: COUNT_PLACEHOLDER">
+  <title>PROFILE VIEWS: COUNT_PLACEHOLDER</title>
+  <linearGradient id="s" x2="0" y2="100%">
+    <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
+    <stop offset="1" stop-opacity=".1"/>
+  </linearGradient>
+  <clipPath id="r">
+    <rect width="180" height="28" rx="3" fill="#fff"/>
+  </clipPath>
+  <g clip-path="url(#r)">
+    <rect width="130" height="28" fill="#555"/>
+    <rect x="130" width="50" height="28" fill="#00C7B7"/>
+    <rect width="180" height="28" fill="url(#s)"/>
+  </g>
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="100">
+    <text transform="scale(.1)" x="650" y="175" textLength="1100" lengthAdjust="spacing">PROFILE VIEWS</text>
+    <text transform="scale(.1)" x="1550" y="175" font-weight="bold" textLength="400" lengthAdjust="spacing">COUNT_PLACEHOLDER</text>
+  </g>
+</svg>
+EOF
 
-          # Replace $COUNT with actual value
-          sed -i "s/\$COUNT/$COUNT/g" .github/profile-views.svg
+          # Replace COUNT_PLACEHOLDER with actual value
+          sed -i "s/COUNT_PLACEHOLDER/$COUNT/g" .github/profile-views.svg
 
       - name: Commit badge
         run: |
@@ -79,7 +78,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Update profile views badge [skip ci]"
+            git commit -m "Update profile views badge - ${{ steps.traffic.outputs.count }} views [skip ci]"
             git push
           fi
 
