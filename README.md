@@ -12,7 +12,7 @@
 [![Website](https://img.shields.io/badge/-Website-00C7B7?style=for-the-badge&logo=google-chrome&logoColor=white)](https://camilo-cf.github.io)
 [![YouTube](https://img.shields.io/badge/-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@camilo.caceresf)
 
-<img src="https://komarev.com/ghpvc/?username=camilo-cf&color=00C7B7&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views" />
+<img src="https://raw.githubusercontent.com/camilo-cf/camilo-cf/main/.github/profile-views.svg" alt="Profile views" />
 
 </div>
 
