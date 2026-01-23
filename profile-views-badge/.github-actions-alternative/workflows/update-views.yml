@@ -1,0 +1,92 @@
+name: Update Profile Views
+
+on:
+  schedule:
+    # Run every 6 hours
+    - cron: '0 */6 * * *'
+
+  # Allow manual trigger
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-views:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PROFILE_TOKEN || github.token }}
+
+      - name: Fetch traffic data
+        id: traffic
+        env:
+          GH_TOKEN: ${{ secrets.PROFILE_TOKEN || github.token }}
+        run: |
+          # Get repository name
+          REPO="${{ github.repository }}"
+
+          # Fetch traffic data from GitHub API
+          RESPONSE=$(gh api repos/$REPO/traffic/views --jq '.uniques')
+
+          echo "Current unique visitors (last 14 days): $RESPONSE"
+          echo "count=$RESPONSE" >> $GITHUB_OUTPUT
+
+      - name: Generate badge SVG
+        run: |
+          COUNT="${{ steps.traffic.outputs.count }}"
+
+          # Create .github directory if it doesn't exist
+          mkdir -p .github
+
+          # Generate SVG badge
+          cat > .github/profile-views.svg << 'EOF'
+          <svg xmlns="http://www.w3.org/2000/svg" width="180" height="28" role="img" aria-label="PROFILE VIEWS: $COUNT">
+            <title>PROFILE VIEWS: $COUNT</title>
+            <linearGradient id="s" x2="0" y2="100%">
+              <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
+              <stop offset="1" stop-opacity=".1"/>
+            </linearGradient>
+            <clipPath id="r">
+              <rect width="180" height="28" rx="3" fill="#fff"/>
+            </clipPath>
+            <g clip-path="url(#r)">
+              <rect width="130" height="28" fill="#555"/>
+              <rect x="130" width="50" height="28" fill="#00C7B7"/>
+              <rect width="180" height="28" fill="url(#s)"/>
+            </g>
+            <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="100">
+              <text transform="scale(.1)" x="650" y="175" textLength="1100" lengthAdjust="spacing">PROFILE VIEWS</text>
+              <text transform="scale(.1)" x="1550" y="175" font-weight="bold" textLength="400" lengthAdjust="spacing">$COUNT</text>
+            </g>
+          </svg>
+          EOF
+
+          # Replace $COUNT with actual value
+          sed -i "s/\$COUNT/$COUNT/g" .github/profile-views.svg
+
+      - name: Commit badge
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add .github/profile-views.svg
+
+          # Only commit if there are changes
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update profile views badge [skip ci]"
+            git push
+          fi
+
+      - name: Summary
+        run: |
+          echo "### Profile Views Update" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **Unique visitors (14 days)**: ${{ steps.traffic.outputs.count }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Updated**: $(date -u +'%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+          echo "- **Next update**: In ~6 hours" >> $GITHUB_STEP_SUMMARY
