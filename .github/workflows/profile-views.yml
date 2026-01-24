@@ -63,9 +63,9 @@ jobs:
           mkdir -p .github
 
           # Generate SVG badge matching the style of komarev badge
-          cat > .github/profile-views.svg << 'EOF'
-<svg xmlns="http://www.w3.org/2000/svg" width="180" height="28" role="img" aria-label="PROFILE VIEWS: COUNT_PLACEHOLDER">
-  <title>PROFILE VIEWS: COUNT_PLACEHOLDER</title>
+          cat > .github/profile-views.svg <<'SVGEOF'
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="28" role="img" aria-label="PROFILE VIEWS">
+  <title>PROFILE VIEWS</title>
   <linearGradient id="s" x2="0" y2="100%">
     <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
     <stop offset="1" stop-opacity=".1"/>
@@ -80,13 +80,13 @@ jobs:
   </g>
   <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="100">
     <text transform="scale(.1)" x="650" y="175" textLength="1100" lengthAdjust="spacing">PROFILE VIEWS</text>
-    <text transform="scale(.1)" x="1550" y="175" font-weight="bold" textLength="400" lengthAdjust="spacing">COUNT_PLACEHOLDER</text>
+    <text transform="scale(.1)" x="1550" y="175" font-weight="bold" textLength="400" lengthAdjust="spacing">COUNT_VALUE</text>
   </g>
 </svg>
-EOF
+SVGEOF
 
-          # Replace COUNT_PLACEHOLDER with actual value
-          sed -i "s/COUNT_PLACEHOLDER/$COUNT/g" .github/profile-views.svg
+          # Replace COUNT_VALUE with actual value
+          sed -i "s/COUNT_VALUE/$COUNT/g" .github/profile-views.svg
 
       - name: Commit badge
         run: |
