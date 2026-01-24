@@ -63,30 +63,28 @@ jobs:
           mkdir -p .github
 
           # Generate SVG badge matching the style of komarev badge
-          cat > .github/profile-views.svg <<'SVGEOF'
-<svg xmlns="http://www.w3.org/2000/svg" width="180" height="28" role="img" aria-label="PROFILE VIEWS">
-  <title>PROFILE VIEWS</title>
-  <linearGradient id="s" x2="0" y2="100%">
-    <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
-    <stop offset="1" stop-opacity=".1"/>
-  </linearGradient>
-  <clipPath id="r">
-    <rect width="180" height="28" rx="3" fill="#fff"/>
-  </clipPath>
-  <g clip-path="url(#r)">
-    <rect width="130" height="28" fill="#555"/>
-    <rect x="130" width="50" height="28" fill="#00C7B7"/>
-    <rect width="180" height="28" fill="url(#s)"/>
-  </g>
-  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="100">
-    <text transform="scale(.1)" x="650" y="175" textLength="1100" lengthAdjust="spacing">PROFILE VIEWS</text>
-    <text transform="scale(.1)" x="1550" y="175" font-weight="bold" textLength="400" lengthAdjust="spacing">COUNT_VALUE</text>
-  </g>
-</svg>
-SVGEOF
-
-          # Replace COUNT_VALUE with actual value
-          sed -i "s/COUNT_VALUE/$COUNT/g" .github/profile-views.svg
+          # Using printf to avoid YAML heredoc parsing issues
+          printf '%s\n' \
+            '<svg xmlns="http://www.w3.org/2000/svg" width="180" height="28" role="img" aria-label="PROFILE VIEWS">' \
+            '  <title>PROFILE VIEWS</title>' \
+            '  <linearGradient id="s" x2="0" y2="100%">' \
+            '    <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>' \
+            '    <stop offset="1" stop-opacity=".1"/>' \
+            '  </linearGradient>' \
+            '  <clipPath id="r">' \
+            '    <rect width="180" height="28" rx="3" fill="#fff"/>' \
+            '  </clipPath>' \
+            '  <g clip-path="url(#r)">' \
+            '    <rect width="130" height="28" fill="#555"/>' \
+            '    <rect x="130" width="50" height="28" fill="#00C7B7"/>' \
+            '    <rect width="180" height="28" fill="url(#s)"/>' \
+            '  </g>' \
+            '  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="100">' \
+            '    <text transform="scale(.1)" x="650" y="175" textLength="1100" lengthAdjust="spacing">PROFILE VIEWS</text>' \
+            "    <text transform=\"scale(.1)\" x=\"1550\" y=\"175\" font-weight=\"bold\" textLength=\"400\" lengthAdjust=\"spacing\">$COUNT</text>" \
+            '  </g>' \
+            '</svg>' \
+            > .github/profile-views.svg
 
       - name: Commit badge
         run: |
