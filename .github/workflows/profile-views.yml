@@ -1,5 +1,17 @@
 name: Update Profile Views Badge
 
+# SETUP REQUIRED:
+# This workflow requires a Personal Access Token (PAT) with 'repo' scope
+# to access GitHub's Traffic API. The default GITHUB_TOKEN doesn't have this permission.
+#
+# Setup instructions:
+# 1. Create a PAT at: https://github.com/settings/tokens
+# 2. Grant 'repo' (or 'public_repo' for public repos) scope
+# 3. Add as repository secret named 'TRAFFIC_PAT'
+#    at: https://github.com/camilo-cf/camilo-cf/settings/secrets/actions
+#
+# See .github/PROFILE_VIEWS_BADGE.md for detailed instructions
+
 on:
   schedule:
     # Run every 6 hours
@@ -22,10 +34,19 @@ jobs:
       - name: Fetch traffic data
         id: traffic
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ secrets.TRAFFIC_PAT || github.token }}
         run: |
           # Get repository name
           REPO="${{ github.repository }}"
+
+          # Check if TRAFFIC_PAT is configured
+          if [ -z "${{ secrets.TRAFFIC_PAT }}" ]; then
+            echo "⚠️ WARNING: TRAFFIC_PAT secret not configured!"
+            echo "The default github.token doesn't have permission to access traffic data."
+            echo "Please create a Personal Access Token with 'repo' scope and add it as TRAFFIC_PAT secret."
+            echo "See: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens"
+            exit 1
+          fi
 
           # Fetch traffic data from GitHub API
           # This gets unique visitors from the last 14 days
