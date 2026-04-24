@@ -26,10 +26,7 @@ git push origin main
 
 ## Automation Workflows
 
-- `.github/workflows/metrics.yml` — Generates `metrics.svg` and `metrics-compact.svg` every 6 hours using [lowlighter/metrics](https://github.com/lowlighter/metrics). Requires a `METRICS_TOKEN` or `GITHUB_TOKEN` secret.
-- `.github/workflows/update-readme.yml` — Auto-updates `README.md` with latest blog posts from `https://camilo-cf.github.io/feed.xml` and recent GitHub activity. Runs hourly. Uses `BLOG-POST-LIST` comment tags to know where to insert content. If the README does not contain these tags, the workflow may append a new section.
-- `.github/workflows/snake.yml` — Generates a contribution grid snake animation SVG and pushes it to an `output` branch. No longer referenced in the current README but the workflow still runs.
-- `.github/workflows/profile-views.yml` — Generates a profile views badge SVG in `.github/profile-views.svg`. Requires a `TRAFFIC_PAT` secret with `repo` scope. No longer referenced in the current README but the workflow still runs.
+None active. The previous metrics, snake animation, profile views badge, and README auto-update workflows have been removed to eliminate noisy commits. If metrics or blog-post auto-updates are needed in the future, they can be re-added.
 
 ## Profile Identity
 
